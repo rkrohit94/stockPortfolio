@@ -8,7 +8,7 @@ import java.util.Iterator;
  */
 public class Broker {
     String name;
-    static ArrayList<Client> clients = new ArrayList<Client>();
+    ArrayList<Client> clients = new ArrayList<Client>();
 
     public Broker(String name) {
         this.name = name;
